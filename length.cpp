@@ -3,7 +3,10 @@ using namespace std;
 
 int main()
 {
-    string name = "karan";
+    string name ;
+
+    cout << "Enter Any word : " ;
+    cin >> name;
 
     cout << "The length is : " << name.length();
 
